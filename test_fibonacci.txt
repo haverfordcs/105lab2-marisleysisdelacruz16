@@ -1,0 +1,45 @@
+"""
+importing the fibonacci module (script) so we can test the desired function(s)
+fibonacci series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,....
+>>> import fibonacci as fib
+
+Testing for the nth_fibonacci_using_recursion
+>>> fib.nth_fibonacci_using_recursion(1)
+0
+
+>>> fib.nth_fibonacci_using_recursion(2)
+1
+
+>>> fib.nth_fibonacci_using_recursion(5)
+3
+
+>>> fib.nth_fibonacci_using_recursion(7)
+8
+
+>>> fib.nth_fibonacci_using_recursion(-7)
+Traceback (most recent call last):
+ValueError: n should be a positive number or zero
+
+****************************************************
+Testing for nth_fibonacci_using_iteration
+Only the first test of the following tests will pass because we have not implemented the
+nth_fibonacci_using_iteration properly.
+If you implement the nth_fibonacci_using_iteration() in fibonacci.py properly, all of the following tests would pass
+Testing for the nth_fibonacci_using_recursion
+>>> fib.nth_fibonacci_using_iteration(1)
+0
+
+>>> fib.nth_fibonacci_using_iteration(2)
+1
+
+>>> fib.nth_fibonacci_using_iteration(5)
+3
+
+>>> fib.nth_fibonacci_using_iteration(7)
+8
+
+>>> fib.nth_fibonacci_using_iteration(-7)
+Traceback (most recent call last):
+ValueError: n should be a positive number or zero
+
+"""

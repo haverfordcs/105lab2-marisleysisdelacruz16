@@ -1,0 +1,40 @@
+"""
+importing the square_root module (script) so we can test the desired function(s)
+>>> import square_root as sqt
+>>> sqt.sqrt_iterative(-7)
+Traceback (most recent call last):
+ValueError: Input should be a positive number or zero
+
+>>> sqt.sqrt_iterative(0)
+0
+
+>>> sqt.sqrt_iterative(2) # doctest: +ELLIPSIS
+1.41...
+
+>>> sqt.sqrt_iterative(3) # doctest: +ELLIPSIS
+1.7320...
+
+>>> sqt.sqrt_iterative(36) # doctest: +ELLIPSIS
+5.999999...
+
+###############################################
+
+Once you are done with the implementation, the following tests must pass:
+
+>>> sqt.sqrt_recursive(0)
+0
+
+>>> sqt.sqrt_recursive(2) # doctest: +ELLIPSIS
+1.41...
+
+>>> sqt.sqrt_recursive(3) # doctest: +ELLIPSIS
+1.7320...
+
+>>> sqt.sqrt_recursive(36)
+6
+
+>>> sqt.sqrt_recursive(-7)
+Traceback (most recent call last):
+ValueError: Input should be a positive number or zero
+
+"""
