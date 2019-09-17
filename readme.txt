@@ -5,7 +5,7 @@ Lab 2: iteration to recursion and recursion to iteration exercise
 CS105, Haverford College
 Due date: September 16, Midnight | submissions would be accepted through GitHub only unless stated otherwise. 
 
-<replace with your name>
+<Marisleysis De La Cruz>
 
 Following are the list of tasks that you have to accomplish:
 
